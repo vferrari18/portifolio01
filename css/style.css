@@ -143,18 +143,18 @@ section {
 /* ---- SEÇÃO SOBRE MIM ---- */
 
 .about-section {
-    background-color: #f9f9f9; /* Um fundo cinza bem claro para destacar a seção */
+    background-color: #f9f9f9;
 }
 
 .about-content {
-    max-width: 1100px; /* Largura máxima do conteúdo */
-    margin: 0 auto; /* Centraliza o conteúdo */
-    display: flex; /* Ativa o Flexbox para o layout de duas colunas */
-    align-items: center; /* Alinha as colunas verticalmente */
-    gap: 40px; /* Espaço entre as duas colunas */
+    max-width: 1100px; 
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
-/* Define que cada coluna ocupará metade do espaço */
+
 .about-text, .about-description {
     flex: 1;
 }
@@ -167,7 +167,7 @@ section {
 }
 
 
-/* ---- SEÇÃO HABILIDADES (SKILLS) ---- */
+/* ---- SEÇÃO HABILIDADES ---- */
 
 .skills-section {
     padding: 80px 40px;
@@ -229,7 +229,7 @@ section {
 .progress-fill {
     height: 100%;
     width: 0;
-    background-color: var(--progress-color); /* Usa a cor definida no HTML */
+    background-color: var(--progress-color); 
     border-radius: 10px;
     animation: fill-progress 2s ease-in-out forwards;
     animation-delay: 0.5s; 
@@ -429,11 +429,7 @@ section {
     text-align: center;
     padding: 20px 40px;
     font-size: 14px;
-}
-
-/* ---- RODAPÉ ---- */
-
-.site-footer {
+    
     background-color: #1c1c1c;
     color: #a0a0a0;
     padding: 60px 40px 20px 40px;
