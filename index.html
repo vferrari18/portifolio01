@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome - Portfólio</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">VICTOR FERRARI</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <a href="#contato" class="btn-nav">Fale Comigo</a>
+        </nav>
+        <div class="hero-content">
+            <h1>Designer & Desenvolvedor em formação</h1>
+            <p>Com mais de 10 anos de experiência em design e atualmente cursando Análise e Desenvolvimento de Sistemas, busco uma oportunidade como Desenvolvedor Júnior para criar soluções visuais e funcionais inovadoras.</p>
+            <a href="#projetos" class="btn-hero">Ver Projetos</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="about-section">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-tag">Sobre Mim</span>
+                    <h2 class="section-title">Dez anos de design, agora rumo ao desenvolvimento.</h2>
+                </div>
+                <div class="about-description">
+                    <p>Sou um designer com mais de uma década de experiência em agências, especializado na criação de logotipos, sites e campanhas publicitárias para clientes no Brasil e exterior. Atualmente, estou expandindo minhas competências através da graduação em Análise e Desenvolvimento de Sistemas, com o objetivo de unir a criatividade do design à lógica da programação para construir soluções web cada vez mais completas e impactantes.</p>
+                    <a href="#" class="read-more">Saiba mais &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+         <section id="habilidades" class="skills-section">
+            <div class="skills-header">
+                <h2>Minhas Habilidades</h2>
+                <p>Aqui estão algumas das tecnologias com as quais tenho experiência.</p>
+                <hr class="section-divider">
+            </div>
+
+            <div class="skills-list">
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Adobe Photoshop / Illustrator</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="--progress-width: 95%; --progress-color: #00bcd4;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Branding e Identidade Visual</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="--progress-width: 90%; --progress-color: #2ecc71;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>HTML & CSS</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="--progress-width: 85%; --progress-color: #3498db;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="--progress-width: 75%; --progress-color: #f1c40f;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Produção Web (WordPress / RD Station)</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="--progress-width: 80%; --progress-color: #e74c3c;"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <section id="projetos" class="portfolio-section">
+            <div class="portfolio-title">
+                <span class="section-tag">Portfólio</span>
+                <h2 class="section-title">Projetos em destaque</h2>
+            </div>
+            <div class="portfolio-grid">
+                <div class="project-item"><img src="imagem/01.png" alt="Descrição do Projeto 1"></div>
+                <div class="project-item"><img src="imagem/02.png" alt="Descrição do Projeto 2"></div>
+                <div class="project-item"><img src="imagem/03.png" alt="Descrição do Projeto 3"></div>
+                <div class="project-item"><img src="imagem/04.png" alt="Descrição do Projeto 4"></div>
+                <div class="project-item"><img src="imagem/05.png" alt="Descrição do Projeto 5"></div>
+                <div class="project-item see-more">
+                    <a href="#">Ver mais &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <div class="form-container">
+                <div class="form-header">
+                    <h2>Vamos conversar?</h2>
+                    <p>Estou buscando ativamente uma oportunidade como Desenvolvedor Júnior.<br>Se você tem um projeto, uma vaga ou simplesmente quer trocar uma ideia,<br>preencha o formulário abaixo. Terei prazer em responder!</p>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" name="fullName" placeholder="Nome Completo" required>
+                        </div>
+                        <div class="input-group">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" name="email" placeholder="Endereço de Email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group full-width">
+                             <i class="fa-solid fa-angle-down select-arrow"></i>
+                            <select name="subject" required>
+                                <option value="" disabled selected>Escolha o assunto</option>
+                                <option value="website">Orçamento para Website</option>
+                                <option value="consultoria">Consultoria de TI</option>
+                                <option value="duvida">Dúvida Geral</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group full-width">
+                            <textarea name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit" class="btn-submit">Enviar agora</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Conecte-se Comigo</h4>
+                <div class="social-icons">
+                    <a href="#" target="https://www.facebook.com/victorferrari18/" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" target="https://www.instagram.com/vferrari18/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" target="https://www.linkedin.com/in/victorferrari9" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.behance.net/victor_ferrari" target="_blank" aria-label="Behance"><i class="fa-brands fa-behance"></i></a>
+                </div>
+                <p class="footer-email">ou me mande um email:</p>
+                <a href="mailto:ferrari@outlook.com.br">ferrari@outlook.com.br</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Menu</h4>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Escritório</h4>
+                <p>Lençóis Paulista - SP<br>Atendimento com hora marcada.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Victor Ferrari. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
